@@ -1,0 +1,198 @@
+/* ============================= */
+/* Global background and font    */
+/* ============================= */
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ============================= */
+/* Overlay panel for content     */
+/* ============================= */
+.overlay {
+  background-color: rgba(240, 248, 255, 0.9); /* pastel blue tint */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(100, 100, 100, 0.3);
+  max-width: 1400px;
+  margin: 40px auto;
+  overflow-x: auto;
+}
+
+/* ============================= */
+/* Data table wrapper            */
+/* ============================= */
+.data-table-wrapper {
+  overflow-x: auto;  /* keep scroll */
+  background-color: #e6f2ff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(180, 180, 255, 0.3);
+  margin-bottom: 30px;
+}
+
+/* ============================= */
+/* DataTables adjustments        */
+/* ============================= */
+table.dataTable {
+  width: 100% !important;
+  table-layout: auto !important;
+  font-size: 15px;
+}
+
+table.dataTable th,
+table.dataTable td {
+  text-align: left;
+  vertical-align: middle;
+  padding: 12px 15px;
+  white-space: nowrap;   /* keep in one line */
+}
+
+div.dataTables_wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* ============================= */
+/* Summary Cards Container       */
+/* ============================= */
+.summary-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* spacing between cards */
+  margin-bottom: 30px;
+}
+
+/* ============================= */
+/* Individual Summary Card       */
+/* ============================= */
+.summary-card {
+  background: linear-gradient(145deg, #e6f2ff, #cce0ff);
+  border-radius: 15px;
+  padding: 25px 35px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  flex: 1 1 220px; /* responsive width, min 220px */
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.summary-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+}
+
+.summary-card .card-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #001a33;
+  margin-bottom: 10px;
+}
+
+.summary-card .card-value {
+  font-size: 28px;
+  font-weight: 800;
+  color: #003366;
+}
+
+.summary-text {
+  font-size: 22px;     /* increase size */
+  line-height: 1.6;
+  font-weight: 600;    /* optional */
+  color: #001a33;      /* optional */
+}
+
+/* ============================= */
+/* Answer container (Q&A tab)    */
+/* ============================= */
+/* Q/A tab: Question input */
+#qa_tab input.form-control {
+  font-size: 20px;      /* bigger font for question input */
+  font-weight: 500;
+  padding: 12px;
+  color: #001a33;
+}
+
+.answer-container {
+  background-color: #f9fcff;
+  padding: 28px;
+  border-left: 6px solid #004080;
+  margin-top: 25px;
+  border-radius: 10px;
+  font-size: 25px;        /* bigger text */
+  font-weight: 500;
+  color: #00264d;
+  line-height: 1.6;
+}
+
+.answer-title {
+  font-weight: 800;
+  font-size: 25px;
+  margin-bottom: 14px;
+  color: #001a33;
+}
+
+/* ============================= */
+/* Buttons                        */
+/* ============================= */
+.btn-primary {
+  background-color: #003366;   /* darker navy */
+  border-color: #003366;
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: #001a33;   /* even darker */
+  border-color: #001a33;
+}
+
+/* ============================= */
+/* Analytics & Plot containers    */
+/* ============================= */
+#plot {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin-top: 25px;
+}
+
+/* ============================= */
+/* Responsive tweaks              */
+/* ============================= */
+@media (max-width: 768px) {
+  .overlay {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .btn-primary {
+    width: 100%;
+    text-align: center;
+  }
+
+  table.dataTable th,
+  table.dataTable td {
+    white-space: normal; /* allow wrapping on mobile */
+  }
+
+  .summary-card {
+    flex: 1 1 100%; /* full width on small screens */
+    max-width: none;
+  }
+}

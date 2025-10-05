@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "resonant-grail-473120-t3",
+  "private_key_id": "bc88febade814147ffd35263c9b19019735c5d12",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDWwHcJwEZBMNTk\nNiDAI+jAkzk2xAkGKklRmwyOxhbWvA7jLIVXZ46fI/WSfTUvJaV8CwJXftNxyTbP\nIeQdLc17LxcGaEvcnbmdmXYSZMeBWjpBfxWaDETrTCJhVbup83bfcCZV19aTRHSe\nJuGzno7D4KoU9N+g8QRR466MFknqmk0+aJZkria+Ox44M1D9qVDJWV5FsabfLm0n\nuXM1LR1Q0szx9DC5zAp+A8yKFYuBCLVQdtOeItLrEbEPfZfb3wtu1DnQph7QKTFy\n97Q4BasUmUNJ9xoMNt0KCAUVAHgbQsioMYokK2j2sLaDkONyf97xm5MB7kVO//9V\nuKO55m2dAgMBAAECggEAIKJuZIu00W7Rh12nY/OBCRTGZslrIqX17uIMSj0VluvM\nql6nY8UvsgTlqm1/EctbhspogHHcQYglnVwF3Z5KgdwB2H4sexn37Vh3DiwE+mYD\nANWGa5rONWCkP9zmsBi4uZNCLBzo9Ye7XhZECccAZIllZ1pgCoXd1XDvY0f20yD4\n5hi+ZjqU4Ce85KxKPP9LkDiMFd9Mroog4Vqxy365YcMtE7RLdTeD8cpLBUz09DQu\niwPYW7h6XmVl4UOcDHcvWW2ESm7WV3i/jreowdGviOJffgQ0APAn4lOLtyKkaIKl\nQQxDg4VXTbAS4vYgPcck0ah+TcVg1olQXc7aBZr0sQKBgQD0NOZB3thkI5LOXveZ\nJ30Ixjz0RI673d7iGhSY5/vf2GALMw6YAbMBlOj6ScdcKY3YnlPztlWefeWKw+e0\nwBBOjktFlcq/YSXjZ2ENiBYXZ1xSswQdq7c4SX/lZ0ZR97eD1UfKTTxr8eLWFJHs\ngN8Jm0+Bmn6kMRsYMxxEXow+0QKBgQDhH2syLO+FI1Oh/y5+y/ySXNs0w/s4193f\nVvBqGG7QBSD821lQrmhk4Xbf9lcwGjCdL+zfSXBYFq6WcN7ZNDVN86gE3lyNJeS4\nzex0R+JuwagKs7vD3ivjo6KNt0sAIwqY0Mq/c//tBfODUTXTgYN2k0EcwJg/GbAB\nR7xY3hStDQKBgQDh86gwvl39maSV6eyx+oWH/tQbNuvSC6HUFkmEiPDV1sBW3HDe\nWIQmLH+8RVN+hLxH94a58rUZpmcik8zpwuPTq3kd81Da7qo91ENKX+YA1ZPouNZQ\nFbe7DtaVjY7U/J0CD+8S0Y/cWLyHVBUIfNzhaKCRzD7s8LqfE3tODyU4YQKBgQCP\nI3D/OD8bQjj8+cnQaVcwoMXoKOxlWiwCw76dVueucHRnEfkaKarK6eixwmnxddWP\nPFe6KXG7MMDVevLW3DFAXTppzhC+1mc1cgl0bfh1P8De/STYBz2UwgirXu3bKmyk\nea1QSithw7TvvAUjdGfoTvzJkVO8W1LjnX8OajZvSQKBgQDTHL6YseI0h6PrQTC/\nowyQECp/PyfSSXvj1LgV/nHXnfB3NczaqkYWV7WkLxYvtXXHfNaMiTk9/eFdfWDr\nuYQ3lOzbZy9G2NIADW94+n9f1nerK39l12kENIR0X43gsCVmOTaj2kM6g9Ih+dxT\nLmYpaV/qttnLtN63IpCdjmqWdw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "abhishikta@resonant-grail-473120-t3.iam.gserviceaccount.com",
+  "client_id": "111856162358764403401",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/abhishikta%40resonant-grail-473120-t3.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
